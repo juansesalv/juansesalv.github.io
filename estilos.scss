@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$color1: red;
+$color2: blue;
+$color3: yellow;
+$color4: green;
+$color5: lightblue;
+$color6: rgb(19, 123, 155);
+
+.margenesh{
+    background-color: $color4;
+    padding-left: 30px;
+}
+.npaginas{
+    font-size: small;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    padding-top: 20px;
+    padding-left: 15px;
+    color: $color4;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    color: $color6;
+}
+.seguinos-redes-sociales{
+    padding-right: 300px;
+    text-align: right;
+}
+footer{
+    height: 30px;
+    background-color: $color4;
+}
+
+.sobre-nosotros{
+    padding-top: 60px;
+    text-align: center;
+}
+.galeria{
+    padding-top: 60px;
+}
+#ajustedepantalla{
+    max-height: 100vh;
+}
+.contenedor{
+    width: auto;
+}
+@media(max-width:768px) {
+    .galery .foto{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        
+    }
+}
+@media(max-width:1380px) {
+    .imgcontacto{
+        width: 100%;
+    }
+}
